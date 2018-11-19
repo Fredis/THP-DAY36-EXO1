@@ -34,12 +34,14 @@ function divide(firstNumber, secondNumber)
 function add_to_array(value)
 {
 	calcultationArray.push(value);
+	document.getElementById("result").innerHTML = calcultationArray.join('');
 }
 
 function operationTypeAdding(operation)
 {
 	console.log("result: " + result)
 	operationType = operation;
+	document.getElementById("operator").innerHTML = operationType;
 	if(count == 0)
 	{
 		result = parseInt(calcultationArray.join(''));
@@ -71,6 +73,7 @@ function calculation()
 	  default:
 	    console.log('Rien à faire !');
 	}
+	document.getElementById("operator").innerHTML = "=";
 
 }
 
@@ -79,5 +82,6 @@ function clear_calculation(number)
 	calcultationArray = [];
 	result = 0;
 	count = 0;
+	operationType = "";
 	document.getElementById("result").innerHTML = 0;
 }

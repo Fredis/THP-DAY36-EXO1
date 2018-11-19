@@ -1,0 +1,51 @@
+.first_row
+{
+	width: 30%;
+	margin: 5px auto 5px auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+#operator
+{
+	width: 10%;
+	margin: 0 auto 0 auto;
+	border: 1px solid lightgrey;
+	padding: 30px;
+}
+
+#result
+{
+	width: 90%;
+	margin: 0 auto 0 auto;
+	border: 1px solid lightgrey;
+	padding: 30px;
+	font-size: 30px;
+}
+
+.number_row
+{
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin: 5px auto 5px auto;
+	text-align: center;"
+}
+
+.number
+{
+	width: 33%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.operators
+{
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	margin: 5px auto 5px auto;
+	text-align: center;
+}
