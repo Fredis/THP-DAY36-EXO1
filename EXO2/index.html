@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		Exercice 2 - Javascript Calculatrice
+	</title>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+	<body>
+		<div class="fourthRow" style="width: 30%; margin: 5px auto 5px auto; text-align: center;">
+			<div id="result" style="width: 100%; margin: 0 auto 0 auto; border: 1px solid Black;">
+				0
+			</div>
+		</div>
+		<div class="firstRow" style="width: 30%; display: flex; justify-content: space-between; margin: 5px auto 5px auto; text-align: center;">
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(1);">
+				1
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(2);">
+				2
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(3);">
+				3
+			</div>
+		</div>
+		<div class="secondRow" style="width: 30%; display: flex; justify-content: space-between; margin: 5px auto 5px auto; text-align: center;">
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(4);">
+				4
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(5);">
+				5
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(6);">
+				6
+			</div>
+		</div>
+		<div class="thirdRow" style="width: 30%; display: flex; justify-content: space-between; margin: 5px auto 5px auto; text-align: center;">
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(7);">
+				7
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(8);">
+				8
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="add_to_array(9);">
+				9
+			</div>
+		</div>
+		<div class="fourthRow" style="width: 30%; margin: 5px auto 5px auto; text-align: center;">
+			<div style="width: 33.33%; margin: 0 auto 0 auto; border: 1px solid Black;" onClick="add_to_array(0);">
+				0
+			</div>
+		</div>
+		<div class="fifthRow" style="width: 30%; display: flex; justify-content: space-between; margin: 5px auto 5px auto; text-align: center;">
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="operationTypeAdding('+');">
+				+
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="operationTypeAdding('-');">
+				-
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="operationTypeAdding('*');">
+				*
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="operationTypeAdding('/');">
+				/
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="calculation();">
+				=
+			</div>
+			<div style="width: 33.33%; border: 1px solid Black;" onClick="clear_calculation();">
+				C
+			</div>
+		</div>
+	</body>
+</html>
